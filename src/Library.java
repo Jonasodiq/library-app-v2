@@ -2,7 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Library {
-    public List<Book> books;
+    public static List<Book> books;
+    private String isbn;
 
     // Const
     public Library() {
@@ -15,7 +16,7 @@ public class Library {
     }
 
     // Metod för att visa
-    public void showBooks() {
+    public static void showBooks() {
         for (Book book : books) {
             System.out.println(book);
         }
@@ -32,7 +33,7 @@ public class Library {
     }
 
     // Metod för att låna en bok
-    public boolean borrowBook(String title , String isbn) {
+    public boolean borrowBook(String title) {
         Book book = findBookIsbn(isbn);
         if (book != null && book.isAvailable()) {
             book.setAvailable(false);
