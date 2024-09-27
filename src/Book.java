@@ -7,7 +7,7 @@ public class Book {
     private String publisher;
 
     // Const
-    public Book(String title, String author, String isbn, boolean isAvailable, int pages, String publisher) {
+    public Book(String title, String author, String isbn, boolean isAvailable) {
         this.title = title;
         this.author = author;
         this.isbn = isbn;
@@ -33,9 +33,11 @@ public class Book {
     public void setIsbn(String isbn) {
         this.isbn = isbn;
     }
-    public boolean isAvailable(boolean isAvailable) {
-        this.isAvailable = isAvailable;
+    public boolean isAvailable() {
         return isAvailable;
+    }
+    public void setAvailable(boolean isAvailable) {
+        this.isAvailable = isAvailable;
     }
     // TODO Get & Setter end
 
