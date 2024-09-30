@@ -3,6 +3,11 @@ import java.util.Date;
 class Magazine extends Media {
     private final String author;
 
+    /**
+     * @param title
+     * @param pubDate
+     * @param author
+     */
     public Magazine(String title, Date pubDate, String author) {
         super(title, pubDate);
         this.author = author;
