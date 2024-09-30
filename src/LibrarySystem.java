@@ -41,7 +41,7 @@ public class LibrarySystem {
                     System.out.println("Avslutar systemet...");
                     break;
                 default:
-                    System.out.println("Ogiltigt alternativ, försök igen.");
+                    System.out.println("Ogiltigt alternativ, försök igen 1-6.");
             }
         } catch (InputMismatchException e) {
                 System.out.println("Ogiltig inmatning. Vänligen ange ett nummer.");
