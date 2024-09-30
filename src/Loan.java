@@ -3,10 +3,10 @@ import java.util.Date;
 import java.util.Calendar;
 
 class Loan {
-    private User user;
-    private Media media;
-    private Date startDate;
-    private Date endDate;
+    private final User user;
+    private final Media media;
+    private final Date startDate;
+    private final Date endDate;
     private boolean isLate;
 
     public Loan(User user, Media media, Date startDate) {
@@ -14,7 +14,7 @@ class Loan {
         this.media = media;
         this.startDate = startDate;
         this.endDate = calculateEndDate();
-        this.isLate = false;  // Initialt inte försenat
+        this.isLate = false;
     }
 
 
@@ -31,6 +31,9 @@ class Loan {
         return sdf.format(calculateEndDate());
     }
 
+    /**
+     * @param currentDate
+     * */
     public void checkLate(Date currentDate) {
         if (currentDate.after(endDate)) {
             isLate = true;
