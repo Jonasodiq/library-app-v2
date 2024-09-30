@@ -3,7 +3,6 @@
 Ett enkelt konsolbaserat bibliotekshanteringssystem implementerat i Java. Systemet gör det möjligt för användare att hantera böcker, DVD:er och användarkonton samt hantera utlåning och återlämning av media. Systemet inkluderar även sökfunktionalitet för media i biblioteket.
 
 ## Funktioner
-
 - **Användarregistrering**: Stöd för vanliga användare och VIP-användare med olika låneperioder.
 - **Mediemanagement**: Lägg till böcker, DVD:er och tidskrifter i bibliotekets samling.
 - **Utlåningssystem**: Användare kan låna och återlämna media, och systemet beräknar automatiskt återlämningsdatum.
@@ -11,13 +10,11 @@ Ett enkelt konsolbaserat bibliotekshanteringssystem implementerat i Java. System
 - **Återlämningssystem**: Återlämna lånade objekt och uppdatera systemet.
 
 ## Installation
-
 - Klona repot:
     ```bash
     git clone https://github.com/ditt-repo/bibliotekssystem.git
     ```
 ## Användning
-
 När applikationen körs visas en meny. Använd följande alternativ för att navigera i systemet:
 
 - **1. Registrera användare**: Lägg till nya användare, antingen en vanlig användare eller en VIP-användare.
@@ -38,7 +35,6 @@ När applikationen körs visas en meny. Använd följande alternativ för att na
 5.Sök efter media
 6.Avsluta Välj ett alternativ:
 ```
-
 ## Klasser
 
 - **Main**: Applikationens startpunkt.
@@ -56,11 +52,9 @@ När applikationen körs visas en meny. Använd följande alternativ för att na
 Detta projekt är för närvarande under utveckling. Alla funktioner är inte helt implementerade, och det kan förekomma buggar eller ofullständig funktionalitet. Framtida uppdateringar och förbättringar är planerade. Känn dig fri att återkomma eller bidra till projektet.
 Vi uppskattar verkligen all feedback eller förslag för att förbättra projektet. Din feedback hjälper oss att göra projektet bättre.
 
-
 ## Krav
 
 - Java 8 eller senare
-
 
 ## Licens
 
