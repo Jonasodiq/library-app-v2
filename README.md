@@ -53,5 +53,4 @@ Detta projekt är för närvarande under utveckling. Alla funktioner är inte he
 Vi uppskattar verkligen all feedback eller förslag för att förbättra projektet. Din feedback hjälper oss att göra projektet bättre.
 
 ## Krav
-
 - Java 8 eller senare
