@@ -55,4 +55,3 @@ Vi uppskattar verkligen all feedback eller förslag för att förbättra projekt
 ## Krav
 
 - Java 8 eller senare
-ekt är licensierat under MIT-licensen – se [LICENSE](LICENSE) för mer information.
